@@ -1,36 +1,38 @@
 #intro {
   color: black;
   margin-top: 40px;
-  background-color: rgb(217, 217, 217);
   width: 100%;
   text-align: center;
   overflow: auto;
 }
 
+.my-interests {
+  border-radius: 15px;
+  background-color: rgb(223,220,227);
+  box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.4), 3px 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
 .my-interests h1 {
-  text-shadow: 0 0 10px rgba(0,0,0,0.9);
-  color: white;
-  text-decoration-line: underline;
+  color: black;
   font-size: 120%;
+  font-weight: 1;
   margin-left: 20px;
-  text-transform: uppercase;
   text-align: center;
 }
 
 .interest-descriptions {
-  float: right;
-  width: 50%;
-  height: 90vh;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
 }
 
 .interest-descriptions p {
-  text-shadow: 0 0 10px rgba(0,0,0,0.3);
   position: relative;
-  font-size: 22px;
+  font-size: 15px;
   text-decoration-line: none;
-  text-align: center;
-  color: rgb(68,132,206);
-  z-index: 2;
+  text-align: left;
+  color: black;
+  margin: 10px 50px 10px 50px;
 }
 
 .interest-images img {
@@ -42,5 +44,6 @@
 }
 
 .sports, .traveler, .developer {
-  height: 100vh;
+  height: 100%;
+  display: inline-block;
 }

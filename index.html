@@ -13,130 +13,105 @@
      <link rel="stylesheet" type="text/css" href="styles/resume.css">
      <link rel="stylesheet" type="text/css" href="styles/contact.css">
      <link rel="stylesheet" type="text/css" href="styles/portfolio.css">
+     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
  </head>
  <body class="landing">
-    <nav class="navbar">
-       <a href="index.html" class="logo">
-           <img src="assets/images/nblogo.png" alt="nb logo">
-       </a>
-        <ul id="nav-list">
-          <li><a href="#contact" class="navs" id="nav-contact">contact</a></li>
-          <li><a href="#resume" class="navs" id="nav-resume">resume</a></li>
-          <li><a href="#about-me" class="navs" id="nav-about-me">about me</a></li>
-          <li><a href="#portfolio" class="navs" id="nav-portfolio">portfolio</a></li>
-        </ul>
-    </nav>
-     <section class="my-likeness"> <!-- my picture, name and title -->
+    <div class="navbar">
+       <div class='logo-container'>
+         <a href="index.html" class="logo">
+             <img src="assets/images/bamboo.png" alt="nb logo" class='logo-pic'>
+         </a>
+       </div>
+        <div id="nav-list">
+          <a href="#portfolio" class="navs" id="nav-portfolio">portfolio</a>
+          <a href="#about-me" class="navs" id="nav-about-me">about me</a>
+          <a href="#resume" class="navs" id="nav-resume">resume</a>
+          <a href="#contact" class="navs" id="nav-contact">contact</a>
+        </div>
+    </div>
+     <section class="my-likeness">
          <h1 class="nich-title">Nich Bailey</h1>
          <h3 id="job-title" class="nich-title">Full Stack Web Developer</h3>
      </section>
-     <section class="travel-photos">
-         <div>
-           <img id="myImg1" src="assets/images/travelphoto4.jpg" alt="Paracas" class="scenery">
-           <div id="myModal1" class="modal">
-             <span class="close" onclick="document.getElementById('myModal1').style.display='none'">&times;</span>
-              <img class="modal-content" id="img01">
-              <div id="caption1" class="caption"></div>
-            </div>
-          </div>
-        <div>
-          <img id="myImg2" src="assets/images/travelphoto2.jpg" alt="San Pedro de Atacama" class="scenery">
-            <div id="myModal2" class="modal">
-            <span class="close" onclick="document.getElementById('myModal2').style.display='none'">&times;</span>
-            <img class="modal-content" id="img02">
-            <div id="caption2" class="caption"></div>
-          </div>
-        </div>
-        <div>
-          <img id="myImg3" src="assets/images/travelphoto3.jpg" alt="Cuba" class="scenery">
-            <div id="myModal3" class="modal">
-            <span class="close" onclick="document.getElementById('myModal3').style.display='none'">&times;</span>
-            <img class="modal-content" id="img03">
-            <div id="caption3" class="caption"></div>
-          </div>
-        </div>
-     </section>
      <section id="portfolio" class="wrapper" class="sections">
        <h1 class="page-name">Portfolio</h1>
-         <div class= "bwWrapper">
-          <img src="assets/images/travelphoto5.jpg" alt="Arequipa">
-          <p class="portfolio-description">Portfolio Project</p>
-         </div>
-         <div class="bwWrapper">
-          <img src="assets/images/travelphoto6.jpg" alt="Mendoza">
-          <p class="portfolio-description">Portfolio Project</p>
-         </div>
-         <div class="bwWrapper">
-          <img src="assets/images/travelphoto7.jpg" alt="San Pedro de Atacama">
-          <p class="portfolio-description">Portfolio Project</p>
-         </div>
-         <div class="bwWrapper">
-          <img src="assets/images/travelphoto8.jpg" alt="Machu Picchu">
-          <p class="portfolio-description">Portfolio Project</p>
-         </div>
-         <div class="bwWrapper">
-          <img src="assets/images/travelphoto1.jpg" alt="Guatape">
-          <p class="portfolio-description">Portfolio Project</p>
-         </div>
-         <div class="bwWrapper">
-          <img src="assets/images/travelphoto9.jpg" alt="Cartagena">
-          <p class="portfolio-description">Portfolio Project</p>
-         </div>
+       <div>
+         <img id="myImg1" src="assets/images/nichipedia.jpg" alt="Paracas" class="scenery">
+         <div id="myModal1" class="modal">
+           <span class="close" onclick="document.getElementById('myModal1').style.display='none'">&times;</span>
+            <p class="modal-content">This is a description of the project and it will have a link to the github of the project.</p>
+            <div id="caption1" class="caption"></div>
+          </div>
+        </div>
+      <div>
+        <img id="myImg2" src="assets/images/nichitoff.jpg" alt="San Pedro de Atacama" class="scenery">
+          <div id="myModal2" class="modal">
+          <span class="close" onclick="document.getElementById('myModal2').style.display='none'">&times;</span>
+          <p class="modal-content">This is a description of the project and it will have a link to the github of the project.</p>
+          <div id="caption2" class="caption"></div>
+        </div>
+      </div>
+      <div>
+        <img id="myImg3" src="assets/images/baileytunes.jpg" alt="Cuba" class="scenery">
+          <div id="myModal3" class="modal">
+          <span class="close" onclick="document.getElementById('myModal3').style.display='none'">&times;</span>
+          <p class="modal-content">This is a description of the project and it will have a link to the github of the project.</p>
+          <div id="caption3" class="caption"></div>
+        </div>
+      </div>
      </section>
-
      <section id="about-me" class="wrapper" class="sections">
        <h1 class="page-name">About Me</h1>
-       <div>
-         <p id="intro">Hi, I'm Nich Bailey. I'm a developer, CPA, world traveler, hiker, sports fiend, and beer lover.</p>
-       </div>
        <div class="my-interests">
          <div class="developer">
-           <h1>Developer and CPA</h1>
+           <h1>Developer - World Traveler - Athlete</h1>
            <div class="interest-descriptions">
              <p id="developer-description">
-               I'm a recent graduate of the Bloc Web Developer program. I'm also a CPA.
-               I was previously working as the accountant for many different tech start-ups in Denver and I greatly admired what these start-ups were doing.
-               They were taking a new idea and developing a business from scratch with it.
-               I became more and more interested in their projects. What they were doing looked so much more interesting and exciting.
-               They were creating things. I decided to make the switch.
+               I'm a recent graduate of the Bloc Web Developer program.
+               I'm a CPA and I was previously working as the accountant for a lot of different tech start-ups in Denver.
+               I greatly admired what these start-ups were doing, taking a new idea and developing a business from scratch with it.
+               I became more and more interested in their projects. What they were doing looked so much more interesting and exciting than my job.
+               They were creating things. So, I decided to make the switch by taking a 6-month online bootcamp through Bloc.
+               I loved every bit of it, especially the back-end, and now I'm eager to get started with my career in web development and start creating.
              </p>
            </div>
-           <div class="interest-images">
+           <!-- <div class="interest-images">
              <img src="assets/images/Circuit-board.png" alt="Coding"></img>
-           </div>
+           </div> -->
          </div>
          <div class="traveler">
-           <h1>World Traveler and Hiker</h1>
            <div class="interest-descriptions">
              <p id="traveler-description">
-               I love seeing the world. I enjoy the people, landmarks, landscapes, cultures, nature, art, the journey and the food. Can't forget the food.
+               With any time that I have away from work, I love seeing the world. I can't get enough of the unique landmarks and landscapes.
+               I like mixing it up with different people and cultures, learning new things and how people live in other parts of the world.
+               The excitement of the journey and the unexpected is addicting. Also, the food, definitely can't forget the food.
              </p>
            </div>
-           <div class="interest-images">
+           <!-- <div class="interest-images">
              <img src="assets/images/hiking.jpg" alt="Hike"></img>
-           </div>
+           </div> -->
          </div>
          <div class="sports">
-           <h1>Sports Fiend and Beer Lover</h1>
            <div class="interest-descriptions">
              <p id="sports-description">
-               I have loved sports from an early age. I just love competition.
-               I play pick-up and league basketball and volleyball regularly.
-               I also watch sports regularly and cheer for the Denver Nuggets, Kansas City Chiefs, Colorado Rockies, Colorado Buffs, and Colorado Avalanche.
+               I love sports, whether it's watching or playing. I just enjoy the competition.
+               I play basketball and volleyball regularly, in leagues and pick-up.
+               I also cheer for the Nuggets, Chiefs, Rockies, Buffs, and Avalanche.
                Recently, I've enjoyed learning new sports or watching sports in different countries.
-               I recently went to a baseball game in Korea and the games are full productions. They have choreographed cheers, dancers, mcs and singers. It's like no other sporting event I've ever seen.
+               I recently went to a baseball game in Korea and the games are full productions.
+               They have choreographed cheers, dancers, mcs and singers. It's like no other sporting event I've ever seen.
              </p>
            </div>
-           <div class="interest-images">
+           <!-- <div class="interest-images">
              <img src="assets/images/beers.png" alt="beer"></img>
-           </div>
+           </div> -->
          </div>
        </div>
      </section>
      <section id="resume" class="wrapper" class="sections">
        <h1 class="page-name">Resume</h1>
        <div class="resume-background">
-         <img id="nb-resume" src="assets/images/nichbaileyresume.jpg" alt="Nich Bailey Resume" class="resume-image">
+         <img id="nb-resume" src="assets/images/nichbailey.jpg" alt="Nich Bailey Resume" class="resume-image">
          <a href="assets/images/nichbaileyresume.pdf" download=""><img src="assets/images/pdf.png" alt="pdf" class="pdf-image"></a>
        </div>
      </section>
@@ -144,24 +119,20 @@
        <h1 class="page-name">Contact</h1>
        <div class="contact-info">
            <a href="mailto:nichbailey@gmail.com">Email: nichbailey@gmail.com</a>
-           <p>Phone: 720-364-9421</p>
        </div>
        <div class="container">
          <form action="https://getsimpleform.com/messages?form_api_token=7c5b04c6629fe13afbea4ef0fa15cfac" method="post">
 
            <input type='hidden' name='redirect_to' value="http://nbailey21.github.io/thank-you"/>
 
-           <label for="fname">First Name</label>
-           <input type="text" id="fname" name="firstname" placeholder="Your name..">
+           <label for="fname">Name</label></br>
+           <input type="text" id="fname" name="firstname" placeholder="Your name.."></br>
 
-           <label for="lname">Last Name</label>
-           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+           <label for="email">Email</label></br>
+           <input type="text" id="email" name="emailadd" placeholder="Your email.."></br>
 
-           <label for="email">Email</label>
-           <input type="text" id="email" name="emailadd" placeholder="Your email..">
-
-           <label for="subject">Subject</label>
-           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+           <label for="subject">Subject</label></br>
+           <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea></br>
 
            <input type="submit" value="Submit">
 

@@ -1,49 +1,57 @@
+#contact .page-name {
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
+    width: 60%; /* Full width */
     padding: 12px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-left: 20%;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: black;
+    background-color: rgb(252,74,26);
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 20%;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: rgb(68,132,206);
+    background-color: rgb(247,183,51);
 }
 
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
-    background-color: rgb(217,217,217);
     padding: 20px;
 }
 
 .container, label {
   color: black;
-  text-transform: uppercase;
+}
+
+label {
+  margin-left: 20%;
 }
 
 .contact-info {
   color: black;
-  text-transform: uppercase;
   letter-spacing: .02px;
   line-height: 1.5px;
   padding: 20px;
-  background-color: rgb(217,217,217);
+  margin-left: 20%;
 }
 
 .contact-info, a {

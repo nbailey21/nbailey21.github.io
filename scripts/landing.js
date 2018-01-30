@@ -48,10 +48,10 @@ var waypoint = new Waypoint({
   element: $('#portfolio'),
   handler: function(direction) {
     if (direction == "down") {
-      $('.navs').css("color", "black");
-      $('#nav-portfolio').css("color", "rgb(68,132,206)");
+      $('.navs').css("color", "rgb(252,74,26)");
+      $('#nav-portfolio').css("color", "rgb(247,183,51)");
     } else {
-      $('.navs').css("color", "black");
+      $('.navs').css("color", "rgb(252,74,26)");
     }
   },
 })
@@ -60,11 +60,11 @@ var waypoint = new Waypoint({
   element: $('#about-me'),
   handler: function(direction) {
     if (direction == "down") {
-      $('.navs').css("color", "black");
-      $('#nav-about-me').css("color", "rgb(68,132,206)");
+      $('.navs').css("color", "rgb(252,74,26)");
+      $('#nav-about-me').css("color", "rgb(247,183,51)");
     } else {
-      $('.navs').css("color", "black");
-      $('#nav-portfolio').css("color", "rgb(68,132,206)");
+      $('.navs').css("color", "rgb(252,74,26)");
+      $('#nav-portfolio').css("color", "rgb(247,183,51)");
     }
   }
 })
@@ -73,11 +73,11 @@ var waypoint = new Waypoint({
   element: $('#resume'),
   handler: function(direction) {
     if (direction == "down") {
-      $('.navs').css("color", "black");
-      $('#nav-resume').css("color", "rgb(68,132,206)");
+      $('.navs').css("color", "rgb(252,74,26)");
+      $('#nav-resume').css("color", "rgb(247,183,51)");
     } else {
-      $('.navs').css("color", "black");
-      $('#nav-about-me').css("color", "rgb(68,132,206)");
+      $('.navs').css("color", "rgb(252,74,26)");
+      $('#nav-about-me').css("color", "rgb(247,183,51)");
     }
   },
 })
@@ -86,11 +86,11 @@ var waypoint = new Waypoint({
   element: $('#contact'),
   handler: function(direction) {
     if (direction == "down") {
-      $('.navs').css("color", "black");
-      $('#nav-contact').css("color", "rgb(68,132,206)");
+      $('.navs').css("color", "rgb(252,74,26)");
+      $('#nav-contact').css("color", "rgb(247,183,51)");
     } else {
-      $('.navs').css("color", "black");
-      $('#nav-resume').css("color", "rgb(68,132,206)");
+      $('.navs').css("color", "rgb(252,74,26)");
+      $('#nav-resume').css("color", "rgb(247,183,51)");
     }
   },
 })
