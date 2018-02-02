@@ -86,44 +86,55 @@ html {
   font-weight: 1;
   text-align: center;
   text-shadow: .5px .5px #000000;
-  margin: 0px 0px 0px 0px;
+  margin: 40px 0px 20px 0px;
 }
 
-.my-likeness {
-      /* position: relative; */
-      /* min-height: 600px;
+/* .my-likeness {
+      position: relative;
+      min-height: 600px;
       background-image: url(../assets/images/Nichpicture.jpg);
       background-repeat: no-repeat;
       background-position: center center;
-      background-size: cover; */
-  }
+      background-size: cover;
+  } */
 
-.my-likeness .nich-title {
-     position: relative;
-     /* top: 40%; */
-     -webkit-transform: translateY(-50%);
-     -moz-transform: translateY(-50%);
-     -ms-transform: translateY(-50%);
-     transform: translateY(-50%);
-     width: 100%;
-     text-align: center;
-     font-size: 4rem;
-     font-weight: 300;
-     text-transform: uppercase;
-     letter-spacing: 0.5rem;
-     text-shadow: 1px 1px 0px rgb(58,23,63);
+.nich-title {
+   position: relative;
+   -webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   width: 100%;
+   text-align: center;
+   font-size: 4rem;
+   font-weight: 300;
+   text-transform: uppercase;
+   letter-spacing: 0.5rem;
+   text-shadow: 1px 1px 0px rgb(58,23,63);
+   margin: 100px 0px 0px 0px;
 }
 
 #job-title {
-   /* top: 50%; */
-   font-size: 2rem;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-shadow: 1px 1px 0px rgb(58,23,63);
+  margin: 35px 0px 0px 0px;
  }
 
 #portfolio {
   height: auto;
 }
 
-#portfolio .scenery {
+#portfolio .projects {
   overflow: auto;
   float: left;
   width: 30%;
@@ -134,7 +145,7 @@ html {
   box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.4), 3px 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
-.scenery:hover {opacity: 0.7;}
+.projects:hover {opacity: 0.7;}
 
 
 /* The Modal (background) */

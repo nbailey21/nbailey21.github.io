@@ -8,7 +8,10 @@
 
 .my-interests {
   border-radius: 15px;
-  background-color: rgb(223,220,227);
+  background-image: url(../assets/images/about-me-back.jpg);
+  background-position: center top;
+  background-size: cover;
+  height: 500px;
   box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.4), 3px 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -35,15 +38,6 @@
   margin: 10px 50px 10px 50px;
 }
 
-.interest-images img {
-  max-height: 90vh;
-  height: auto;
-  position: relative;
-  float: left;
-  max-width: 50%;
-}
-
 .sports, .traveler, .developer {
-  height: 100%;
   display: inline-block;
 }

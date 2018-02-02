@@ -1,10 +1,9 @@
-
-.resume-background {
-  height: 1000px;
+#resume {
+  height: 960px;
 }
 
 .resume-image {
-    float:left;
+    float: left;
     height: auto;
     width: 60%;
     margin: 1rem;
